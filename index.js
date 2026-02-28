@@ -136,8 +136,8 @@ client.on("interactionCreate", async interaction => {
         const originalEmbed = interaction.message.embeds[0];
 
         const approvedEmbed = EmbedBuilder.from(originalEmbed)
-          .setTitle("✅ Approved Vouch")
-          .setColor("Green");
+          .setTitle("🤝🏼 Vouch")
+          .setColor("Blue");
 
         await approvedChannel.send({
           embeds: [approvedEmbed]
